@@ -1,0 +1,78 @@
+﻿<Window x:Class="AirConditionerShop.MinhDA.DetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AirConditionerShop.MinhDA"
+        mc:Ignorable="d"
+        Title="Air Conditioner - Detail" Height="450" Width="600"
+        Style="{StaticResource DefaultSetting}"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Icon="/assets/icon_app.ico" Loaded="Window_Loaded">
+
+    <Grid Margin="20,10,20,19">
+        <Label x:Name="DetailWindowMode" Content="" HorizontalAlignment="Center" 
+               VerticalAlignment="Top" Margin="0,12,0,0"
+               Style="{StaticResource TitleLable}"/>
+        <Label Content="Product ID:" HorizontalAlignment="Left" 
+               Margin="12,74,0,0" VerticalAlignment="Top"
+               Style="{StaticResource ContentLable}"/>
+        <Label Content="Name:" HorizontalAlignment="Left" 
+            Margin="12,124,0,0" VerticalAlignment="Top"
+            Style="{StaticResource ResourceKey=ContentLable}"/>
+        <Label Content="Sound Pressure Level:" HorizontalAlignment="Left" 
+            Margin="256,234,0,0" VerticalAlignment="Top"
+            Style="{StaticResource ResourceKey=ContentLable}"/>
+        <Label Content="Warranty:" HorizontalAlignment="Left" 
+            Margin="12,233,0,0" VerticalAlignment="Top"
+            Style="{StaticResource ResourceKey=ContentLable}"/>
+        <Label Content="(year)" HorizontalAlignment="Left" 
+            Margin="175,233,0,0" VerticalAlignment="Top"
+            Style="{StaticResource ResourceKey=ContentLable}"/>
+        <Label Content="Feature:" HorizontalAlignment="Left" 
+            Margin="12,178,0,0" VerticalAlignment="Top"
+            Style="{StaticResource ResourceKey=ContentLable}"/>
+        <Label Content="Quantity:" HorizontalAlignment="Left" 
+            Margin="304,75,0,0" VerticalAlignment="Top"
+            Style="{StaticResource ResourceKey=ContentLable}"/>
+        <Label Content="Price:" HorizontalAlignment="Left" 
+            Margin="12,287,0,0" VerticalAlignment="Top"
+            Style="{StaticResource ResourceKey=ContentLable}"/>
+        <Label Content="($)" HorizontalAlignment="Left" 
+            Margin="222,286,0,0" VerticalAlignment="Top"
+            Style="{StaticResource ResourceKey=ContentLable}"/>
+        <Label Content="Supplier:" HorizontalAlignment="Left" 
+            Margin="296,288,0,0" VerticalAlignment="Top"
+            Style="{StaticResource ResourceKey=ContentLable}"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Margin="96,74,0,0" TextWrapping="Wrap"
+                 Text="" VerticalAlignment="Top" Width="156"/>
+        <TextBox x:Name="txtWarranty" HorizontalAlignment="Left" Margin="84,233,0,0" TextWrapping="Wrap"
+            Text="" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="67,124,0,0" TextWrapping="Wrap"
+            Text="" VerticalAlignment="Top" Width="477"/>
+        <TextBox x:Name="txtSoundLevel" HorizontalAlignment="Left" Margin="400,233,0,0" TextWrapping="Wrap"
+            Text="" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="txtFeature" HorizontalAlignment="Left" Margin="76,178,0,0" TextWrapping="Wrap"
+            Text="" VerticalAlignment="Top" Width="468"/>
+        <TextBox x:Name="txtQuantity" HorizontalAlignment="Left" Margin="375,74,0,0" TextWrapping="Wrap"
+            Text="" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Margin="55,286,0,0" TextWrapping="Wrap"
+            Text="" VerticalAlignment="Top" Width="165"/>
+        <ComboBox x:Name="txtSupplierCombo" HorizontalAlignment="Left" Margin="360,287,0,0" 
+                  VerticalAlignment="Top" Width="184"/>
+        <Button x:Name="CancelButton" Content="Cancle" HorizontalAlignment="Left"
+                Margin="304,349,0,0" VerticalAlignment="Top"
+                Style="{StaticResource SecondaryButton}"/>
+        <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Left"
+            Margin="208,349,0,0" VerticalAlignment="Top"
+            Style="{StaticResource PrimaryButton}" Click="SaveButton_Click"/>
+        <Label Content="(dB)" HorizontalAlignment="Left" 
+            Margin="509,234,0,0" VerticalAlignment="Top"
+            Style="{StaticResource ResourceKey=ContentLable}"/>
+
+
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,65 @@
+﻿<Window x:Class="AirConditionerShop.MinhDA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AirConditionerShop.MinhDA"
+        mc:Ignorable="d"
+        Title="Air Conditioner Management" Height="600" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        Style="{StaticResource DefaultSetting}"
+        Icon="/assets/icon_app.ico" Loaded="Window_Loaded">
+    <Grid Margin="36,0,36,0">
+        <DataGrid x:Name="AirconditionerDataGrid" 
+                  Margin="10,100,10,36"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="ID" Width="50" Binding="{Binding AirConditionerId}"/>
+
+                <DataGridTextColumn Header="Name" Width="200" Binding="{Binding AirConditionerName}"/>
+
+                <DataGridTextColumn Header="Sound Pressure Level" Width="200" Binding="{Binding SoundPressureLevel}"/>
+
+                <DataGridTextColumn Header="Warranty" Width="100" Binding="{Binding Warranty}"/>
+
+                <DataGridTextColumn Header="Feature" Width="200" Binding="{Binding FeatureFunction}"/>
+
+                <DataGridTextColumn Header="Quantity" Width="90" Binding="{Binding Quantity}"/>
+
+                <DataGridTextColumn Header="Price" Width="60" Binding="{Binding DollarPrice}"/>
+
+                <DataGridTextColumn Header="Supplier ID" Width="120" Binding="{Binding SupplierId}"/>
+
+                <DataGridTextColumn Header="Supplier" Width="100" Binding="{Binding Supplier.SupplierName}"/>
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <Button x:Name="QuitButton" Content="Quit" HorizontalAlignment="Right" 
+                Style="{StaticResource SecondaryButton}"
+                Margin="0,35,14,0" VerticalAlignment="Top"/>
+
+        <Button x:Name="DeleteButton" Content="Delete" HorizontalAlignment="Right" 
+            Style="{StaticResource DangerButton}"
+            Margin="0,35,124,0" VerticalAlignment="Top" Click="DeleteButton_Click"/>
+
+        <Button x:Name="UpdateButton" 
+                Content="Update" HorizontalAlignment="Right" 
+            Style="{StaticResource FunctionButton}"
+            Margin="0,35,214,0" VerticalAlignment="Top" Click="UpdateButton_Click"/>
+
+        <Button x:Name="CreateButton" 
+                Content="Create" HorizontalAlignment="Right" 
+            Style="{StaticResource FunctionButton}"
+            Margin="0,35,304,0" VerticalAlignment="Top" Click="CreateButton_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="10,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="257"
+                 />
+        <Button Content="Search" HorizontalAlignment="Left" Margin="272,35,0,0" VerticalAlignment="Top" 
+                Style="{StaticResource PrimaryButton}"/>
+
+
+
+    </Grid>
+
+</Window>

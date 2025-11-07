@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\msi2k\\Desktop\\PRN212_PE25\\PE.PRN212.FA25.MinhDA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48F93D48-F84A-4DB7-9B23-116A8290EF1F}|AirConditionerShop.MinhDA\\AirConditionerShop.MinhDA.csproj|c:\\users\\msi2k\\desktop\\prn212_pe25\\pe.prn212.fa25.minhda\\airconditionershop.minhda\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F93D48-F84A-4DB7-9B23-116A8290EF1F}|AirConditionerShop.MinhDA\\AirConditionerShop.MinhDA.csproj|solutionrelative:airconditionershop.minhda\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A19A349-2276-419A-8E5C-D2E4555D4C88}|AirConditionerShop.DAL\\AirConditionerShop.DAL.csproj|c:\\users\\msi2k\\desktop\\prn212_pe25\\pe.prn212.fa25.minhda\\airconditionershop.dal\\repositories\\airconditionerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A19A349-2276-419A-8E5C-D2E4555D4C88}|AirConditionerShop.DAL\\AirConditionerShop.DAL.csproj|solutionrelative:airconditionershop.dal\\repositories\\airconditionerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A19A349-2276-419A-8E5C-D2E4555D4C88}|AirConditionerShop.DAL\\AirConditionerShop.DAL.csproj|c:\\users\\msi2k\\desktop\\prn212_pe25\\pe.prn212.fa25.minhda\\airconditionershop.dal\\repositories\\staffmemberrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A19A349-2276-419A-8E5C-D2E4555D4C88}|AirConditionerShop.DAL\\AirConditionerShop.DAL.csproj|solutionrelative:airconditionershop.dal\\repositories\\staffmemberrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A5B7E1D-B009-41A6-999B-2F16034721EE}|AirConditionerShop.BLL\\AirConditionerShop.BLL.csproj|c:\\users\\msi2k\\desktop\\prn212_pe25\\pe.prn212.fa25.minhda\\airconditionershop.bll\\services\\airconditionerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A5B7E1D-B009-41A6-999B-2F16034721EE}|AirConditionerShop.BLL\\AirConditionerShop.BLL.csproj|solutionrelative:airconditionershop.bll\\services\\airconditionerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetailWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\msi2k\\Desktop\\PRN212_PE25\\PE.PRN212.FA25.MinhDA\\AirConditionerShop.MinhDA\\DetailWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AirConditionerShop.MinhDA\\DetailWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\msi2k\\Desktop\\PRN212_PE25\\PE.PRN212.FA25.MinhDA\\AirConditionerShop.MinhDA\\DetailWindow.xaml.cs",
+              "RelativeToolTip": "AirConditionerShop.MinhDA\\DetailWindow.xaml.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAowKgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T00:26:51.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AirConditionerService.cs",
+              "DocumentMoniker": "C:\\Users\\msi2k\\Desktop\\PRN212_PE25\\PE.PRN212.FA25.MinhDA\\AirConditionerShop.BLL\\Services\\AirConditionerService.cs",
+              "RelativeDocumentMoniker": "AirConditionerShop.BLL\\Services\\AirConditionerService.cs",
+              "ToolTip": "C:\\Users\\msi2k\\Desktop\\PRN212_PE25\\PE.PRN212.FA25.MinhDA\\AirConditionerShop.BLL\\Services\\AirConditionerService.cs",
+              "RelativeToolTip": "AirConditionerShop.BLL\\Services\\AirConditionerService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T00:26:23.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffMemberRepo.cs",
+              "DocumentMoniker": "C:\\Users\\msi2k\\Desktop\\PRN212_PE25\\PE.PRN212.FA25.MinhDA\\AirConditionerShop.DAL\\Repositories\\StaffMemberRepo.cs",
+              "RelativeDocumentMoniker": "AirConditionerShop.DAL\\Repositories\\StaffMemberRepo.cs",
+              "ToolTip": "C:\\Users\\msi2k\\Desktop\\PRN212_PE25\\PE.PRN212.FA25.MinhDA\\AirConditionerShop.DAL\\Repositories\\StaffMemberRepo.cs*",
+              "RelativeToolTip": "AirConditionerShop.DAL\\Repositories\\StaffMemberRepo.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T00:24:30.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AirConditionerRepo.cs",
+              "DocumentMoniker": "C:\\Users\\msi2k\\Desktop\\PRN212_PE25\\PE.PRN212.FA25.MinhDA\\AirConditionerShop.DAL\\Repositories\\AirConditionerRepo.cs",
+              "RelativeDocumentMoniker": "AirConditionerShop.DAL\\Repositories\\AirConditionerRepo.cs",
+              "ToolTip": "C:\\Users\\msi2k\\Desktop\\PRN212_PE25\\PE.PRN212.FA25.MinhDA\\AirConditionerShop.DAL\\Repositories\\AirConditionerRepo.cs*",
+              "RelativeToolTip": "AirConditionerShop.DAL\\Repositories\\AirConditionerRepo.cs*",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T00:23:50.994Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
