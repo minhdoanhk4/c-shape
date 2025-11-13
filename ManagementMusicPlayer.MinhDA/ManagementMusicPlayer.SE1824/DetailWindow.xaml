@@ -42,7 +42,12 @@
                 <TextBlock x:Name="errPlayerName" Foreground="#FF3B30" FontSize="12" Margin="0,0,0,15"/>
 
                 <TextBlock Text="Loại Máy (*)" Foreground="{StaticResource TextColor}" Margin="0,0,0,5"/>
-                <TextBox x:Name="txtCategory" Margin="0,0,0,5"/>
+                <ComboBox x:Name="cmbCategory" 
+                          Margin="0,0,0,5" 
+                          Height="35"
+                          DisplayMemberPath="categoryName" 
+                          SelectedValuePath="categoryID" 
+                          Style="{StaticResource TrendyComboBox}"/>
                 <TextBlock x:Name="errCategory" Foreground="#FF3B30" FontSize="12" Margin="0,0,0,15"/>
 
                 <TextBlock Text="Giá Tiền (VNĐ) (*)" Foreground="{StaticResource TextColor}" Margin="0,0,0,5"/>
@@ -73,13 +78,13 @@
             <Button x:Name="CancelButton" Content="CANCEL" 
                     Style="{StaticResource SecondaryButton}" 
                     Width="100" 
-                    Margin="0,0,10,0" Height="34"
+                    Margin="0,0,10,0" Height="34" Click="CancelButton_Click"
                     />
 
             <Button x:Name="SaveButton"
                     Content="SAVE" 
                     Style="{StaticResource PrimaryButtonCRUD}" 
-                    Width="100"/>
+                    Width="100" Click="SaveButton_Click"/>
         </StackPanel>
     </Grid>
 </Window>

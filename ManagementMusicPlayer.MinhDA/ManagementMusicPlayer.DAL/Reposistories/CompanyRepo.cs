@@ -17,48 +17,6 @@ namespace ManagementMusicPlayer.DAL.Reposistories
             return _ctx.Companies.ToList();
         }
 
-        public void Create(Company obj)
-        {
-            _ctx = new();
-            _ctx.Companies.Add(obj);
-            _ctx.SaveChanges();
-
-        }
-
-        //Hàm 3: Update aircon set cột x   = value mới where key =? -> Update
-        public void Update(Company obj)
-        {
-            _ctx = new();
-            _ctx.Companies.Update(obj);
-            _ctx.SaveChanges();
-
-        }
-
-        //Hàm 4: Delete from aircon where  key =? -> Delete
-        // các hàm trong repo  thường  đặt tên rất ngắn gọn, vì nó rất gần table, vì table có 4 lệnh basic:
-        /* 
-        - Insert into Aircon value(...)
-        - Update Aircon  set cột  x  = new value, cột y = new value  where cột key = key muốn đổi
-        - delete  from  Aircon  where cột key = key muốn xóa
-        - select * from (get all)
-        - select * from Aircon where key
-         */
-        // Tên hàm trong repo đăt ngắn gọn giống như lệnh SQL vì nó thao tác trên table
-        // tên hàm trong service đặt chi tiết hơn, rõ ràng hơn do nó gần Gui - hướng về user
-        //delete ORM chơi theo kiểu CSDL kiểu OOP thì 1. đưa key để xóa / 2. đưa 1 obj để xóa
-        public void Delete(int key)
-        {
-
-
-        }
-
-        public void Delete(Company obj)
-        {
-            _ctx = new();
-            _ctx.Companies.Remove(obj);
-            _ctx.SaveChanges();
-        }
-
-        //Hàm 5: select * from aircon where cột = like '%  %' -> search
+        
     }
 }

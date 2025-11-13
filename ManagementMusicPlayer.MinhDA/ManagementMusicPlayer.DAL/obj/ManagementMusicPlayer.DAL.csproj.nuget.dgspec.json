@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\msi2k\\Documents\\Music_Player\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj": {}
+    "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\msi2k\\Documents\\Music_Player\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj": {
+    "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\msi2k\\Documents\\Music_Player\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj",
         "projectName": "ManagementMusicPlayer.DAL",
-        "projectPath": "C:\\Users\\msi2k\\Documents\\Music_Player\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj",
+        "projectPath": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj",
         "packagesPath": "C:\\Users\\msi2k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\msi2k\\Documents\\Music_Player\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\obj\\",
+        "outputPath": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

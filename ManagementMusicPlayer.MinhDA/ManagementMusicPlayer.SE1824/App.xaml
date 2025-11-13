@@ -159,16 +159,17 @@
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="HeadersVisibility" Value="Column"/>
             <Setter Property="GridLinesVisibility" Value="Horizontal"/>
-            <Setter Property="HorizontalGridLinesBrush" Value="#DDDDDD"/>
-            <Setter Property="VerticalGridLinesBrush" Value="Transparent"/>
-            <Setter Property="RowHeight" Value="35"/>
+            <Setter Property="HorizontalGridLinesBrush" Value="Gray"/>
+            <Setter Property="VerticalGridLinesBrush" Value="#DDDDDD"/>
+            <Setter Property="RowHeight" Value="30"/>
 
             <Setter Property="CellStyle">
                 <Setter.Value>
                     <Style TargetType="{x:Type DataGridCell}">
                         <Setter Property="BorderThickness" Value="0"/>
-                        <Setter Property="Padding" Value="10,0,0,0"/>
-                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        <Setter Property="Padding" Value="0,0,0,0"/>
+                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                        
                     </Style>
                 </Setter.Value>
             </Setter>
@@ -182,8 +183,8 @@
                         <Setter Property="Height" Value="40"/>
                         <Setter Property="BorderThickness" Value="0,0,0,2"/>
                         <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
-                        <Setter Property="Padding" Value="10,0,0,0"/>
-                        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                        <Setter Property="Padding" Value="0,0,0,0"/>
+                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
                     </Style>
                 </Setter.Value>
             </Setter>

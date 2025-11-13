@@ -15,8 +15,10 @@ namespace ManagementMusicPlayer.DAL.Reposistories
         public List<MusicPlayer> GetAll()
         {
             _ctx = new();
-            return _ctx.MusicPlayers.Include("Company").ToList();
+            return _ctx.MusicPlayers.Include("Company").Include("Category").ToList();
+            
         }
+
 
         public void Create(MusicPlayer obj)
         {

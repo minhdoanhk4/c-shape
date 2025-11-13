@@ -9,9 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\logo-app-player-mp3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ManagementMusicPlayer.BLL\ManagementMusicPlayer.BLL.csproj">
       <Private>True</Private>
     </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\logo-app-player-mp3.png" />
   </ItemGroup>
 
   <ItemGroup>

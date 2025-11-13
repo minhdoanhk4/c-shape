@@ -1,12 +1,138 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\msi2k\\Documents\\Music_Player\\ManagementMusicPlayer.MinhDA\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57DCB5C0-258E-40E6-8222-9D9D0162DA65}|ManagementMusicPlayer.SE1824\\ManagementMusicPlayer.SE1824.csproj|c:\\users\\msi2k\\documents\\prn212_pe25\\managementmusicplayer.minhda\\managementmusicplayer.se1824\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57DCB5C0-258E-40E6-8222-9D9D0162DA65}|ManagementMusicPlayer.SE1824\\ManagementMusicPlayer.SE1824.csproj|solutionrelative:managementmusicplayer.se1824\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57DCB5C0-258E-40E6-8222-9D9D0162DA65}|ManagementMusicPlayer.SE1824\\ManagementMusicPlayer.SE1824.csproj|c:\\users\\msi2k\\documents\\prn212_pe25\\managementmusicplayer.minhda\\managementmusicplayer.se1824\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57DCB5C0-258E-40E6-8222-9D9D0162DA65}|ManagementMusicPlayer.SE1824\\ManagementMusicPlayer.SE1824.csproj|solutionrelative:managementmusicplayer.se1824\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7FB7F6-0340-4827-9AE2-73D1632BF787}|ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj|c:\\users\\msi2k\\documents\\prn212_pe25\\managementmusicplayer.minhda\\managementmusicplayer.dal\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7FB7F6-0340-4827-9AE2-73D1632BF787}|ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj|solutionrelative:managementmusicplayer.dal\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7FB7F6-0340-4827-9AE2-73D1632BF787}|ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj|c:\\users\\msi2k\\documents\\prn212_pe25\\managementmusicplayer.minhda\\managementmusicplayer.dal\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7FB7F6-0340-4827-9AE2-73D1632BF787}|ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj|solutionrelative:managementmusicplayer.dal\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7FB7F6-0340-4827-9AE2-73D1632BF787}|ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj|c:\\users\\msi2k\\documents\\prn212_pe25\\managementmusicplayer.minhda\\managementmusicplayer.dal\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7FB7F6-0340-4827-9AE2-73D1632BF787}|ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj|solutionrelative:managementmusicplayer.dal\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7FB7F6-0340-4827-9AE2-73D1632BF787}|ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj|c:\\users\\msi2k\\documents\\prn212_pe25\\managementmusicplayer.minhda\\managementmusicplayer.dal\\entities\\managementmusicplayercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7FB7F6-0340-4827-9AE2-73D1632BF787}|ManagementMusicPlayer.DAL\\ManagementMusicPlayer.DAL.csproj|solutionrelative:managementmusicplayer.dal\\entities\\managementmusicplayercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57DCB5C0-258E-40E6-8222-9D9D0162DA65}|ManagementMusicPlayer.SE1824\\ManagementMusicPlayer.SE1824.csproj|c:\\users\\msi2k\\documents\\prn212_pe25\\managementmusicplayer.minhda\\managementmusicplayer.se1824\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57DCB5C0-258E-40E6-8222-9D9D0162DA65}|ManagementMusicPlayer.SE1824\\ManagementMusicPlayer.SE1824.csproj|solutionrelative:managementmusicplayer.se1824\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\Entities\\Account.cs",
+              "RelativeDocumentMoniker": "ManagementMusicPlayer.DAL\\Entities\\Account.cs",
+              "ToolTip": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\Entities\\Account.cs",
+              "RelativeToolTip": "ManagementMusicPlayer.DAL\\Entities\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T03:08:15.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\Entities\\Company.cs",
+              "RelativeDocumentMoniker": "ManagementMusicPlayer.DAL\\Entities\\Company.cs",
+              "ToolTip": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\Entities\\Company.cs",
+              "RelativeToolTip": "ManagementMusicPlayer.DAL\\Entities\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T03:07:10.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManagementMusicPlayerContext.cs",
+              "DocumentMoniker": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\Entities\\ManagementMusicPlayerContext.cs",
+              "RelativeDocumentMoniker": "ManagementMusicPlayer.DAL\\Entities\\ManagementMusicPlayerContext.cs",
+              "ToolTip": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\Entities\\ManagementMusicPlayerContext.cs",
+              "RelativeToolTip": "ManagementMusicPlayer.DAL\\Entities\\ManagementMusicPlayerContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T02:41:06.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.SE1824\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ManagementMusicPlayer.SE1824\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.SE1824\\MainWindow.xaml",
+              "RelativeToolTip": "ManagementMusicPlayer.SE1824\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-13T00:52:18.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DetailWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.SE1824\\DetailWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManagementMusicPlayer.SE1824\\DetailWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.SE1824\\DetailWindow.xaml.cs",
+              "RelativeToolTip": "ManagementMusicPlayer.SE1824\\DetailWindow.xaml.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:54:01.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "ManagementMusicPlayer.DAL\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.DAL\\Entities\\Category.cs",
+              "RelativeToolTip": "ManagementMusicPlayer.DAL\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T03:08:16.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.SE1824\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManagementMusicPlayer.SE1824\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\msi2k\\Documents\\PRN212_PE25\\ManagementMusicPlayer.MinhDA\\ManagementMusicPlayer.SE1824\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ManagementMusicPlayer.SE1824\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAAkwDcBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:52:14.659Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

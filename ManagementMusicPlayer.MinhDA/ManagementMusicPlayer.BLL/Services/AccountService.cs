@@ -17,24 +17,5 @@ namespace ManagementMusicPlayer.BLL.Services
             return _repo.GetAll();
         }
 
-        public void CreateAcc(Account obj)
-        {
-            _repo.Create(obj);
-        }
-
-        //Hàm 3: UpdateAircons()
-        public void UpdateAcc(Account obj)
-        {
-            _repo.Update(obj);
-        }
-
-        //Hàm 4: DeleteAircons()
-        public void DeleteAcc(Account obj)
-        {
-            _repo.Delete(obj);
-        }
-
-
-        //Hàm 5: SearchAircons()
     }
 }
