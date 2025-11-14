@@ -1,0 +1,42 @@
+﻿<Window x:Class="ManagementMusicPlayer.SE1824.DetailCategoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManagementMusicPlayer.SE1824"
+        mc:Ignorable="d"
+        Title="Quản Lý Chi Tiết Loại Máy" 
+        Height="250" Width="450"
+        WindowStartupLocation="CenterScreen"
+        Background="White"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="txtWindowTitle" 
+                   Grid.Row="0" 
+                   Text="THÊM MỚI LOẠI MÁY" 
+                   FontSize="24" 
+                   FontWeight="Bold" 
+                   Foreground="{StaticResource PrimaryColor}"
+                   Margin="0,0,0,20"/>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center">
+            <TextBlock Text="Tên Loại Máy (*)" />
+            <TextBox x:Name="txtCategoryName" Margin="0,5,0,0"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+            <Button x:Name="btnSave" Content="Save" Style="{StaticResource PrimaryButtonCRUD}" 
+                    Width="80" Click="btnSave_Click"/>
+            <Button x:Name="btnCancel" Content="Cancel" Style="{StaticResource SecondaryButton}" 
+                    Width="80" Margin="10,0,0,0" IsCancel="True" Click="btnCancel_Click" Height="34"/>
+        </StackPanel>
+    </Grid>
+</Window>

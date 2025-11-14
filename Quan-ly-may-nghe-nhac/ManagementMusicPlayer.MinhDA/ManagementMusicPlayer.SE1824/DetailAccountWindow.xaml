@@ -1,0 +1,56 @@
+﻿<Window x:Class="ManagementMusicPlayer.SE1824.DetailAccountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManagementMusicPlayer.SE1824"
+        mc:Ignorable="d"
+        Title="Quản Lý Chi Tiết Account" 
+        Height="450" Width="450"
+        WindowStartupLocation="CenterScreen"
+        Background="White"
+        FontFamily="Segoe UI"
+        Loaded="Window_Loaded">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="txtWindowTitle" 
+                   Grid.Row="0" 
+                   Text="THÊM MỚI ACCOUNT QUẢN LÝ" 
+                   FontSize="24" 
+                   FontWeight="Bold" 
+                   Foreground="{StaticResource PrimaryColor}"
+                   Margin="0,0,0,20"/>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center">
+
+            <TextBlock Text="Họ và Tên (*)" />
+            <TextBox x:Name="txtFullName" Margin="0,5,0,10"/>
+
+            <TextBlock Text="Email (*)" />
+            <TextBox x:Name="txtEmail" Margin="0,5,0,10"/>
+
+            <TextBlock Text="Password (*)" />
+            <PasswordBox x:Name="txtPassword" Margin="0,5,0,10"/>
+
+            <TextBlock Text="Vai trò (*)" />
+            <ComboBox x:Name="cmbRole" 
+                      Margin="0,5,0,10"
+                      DisplayMemberPath="RoleName"
+                      SelectedValuePath="RoleId"/>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+            <Button x:Name="btnSave" Content="Save" Style="{StaticResource PrimaryButtonCRUD}" 
+                    Width="80" Click="btnSave_Click"/>
+            <Button x:Name="btnCancel" Content="Cancel"  
+                    Width="80" Margin="10,0,0,0" IsCancel="True" Click="btnCancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

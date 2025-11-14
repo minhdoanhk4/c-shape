@@ -1,0 +1,242 @@
+﻿<Application x:Class="ManagementMusicPlayer.SE1824.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ManagementMusicPlayer.SE1824"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="PrimaryColor" Color="#00A896"/>
+        <SolidColorBrush x:Key="SecondaryColor" Color="#F0F0F0"/>
+        <SolidColorBrush x:Key="TextColor" Color="#333333"/>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="{StaticResource SecondaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8">
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="False" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="PasswordBox">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="{StaticResource SecondaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type PasswordBox}">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8">
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="False" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{StaticResource PrimaryColor}"
+                                BorderThickness="1"
+                                CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#007F70"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="SecondaryButton" TargetType="Button" BasedOn="{StaticResource PrimaryButton}">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="{StaticResource TextColor}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="{StaticResource PrimaryColor}"/>
+                    <Setter Property="Background" Value="Transparent"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="LogoutButton" TargetType="Button">
+            <Setter Property="Background" Value="#E0E0E0"/>
+            <Setter Property="Foreground" Value="{StaticResource TextColor}"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Padding" Value="15,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#D0D0D0"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="SearchButton" TargetType="Button" BasedOn="{StaticResource PrimaryButton}">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="15,0"/>
+        </Style>
+
+        <Style x:Key="PrimaryButtonCRUD" TargetType="Button" BasedOn="{StaticResource PrimaryButton}">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Background" Value="#2ecc71"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#27ae60"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="DangerButtonCRUD" TargetType="Button" BasedOn="{StaticResource PrimaryButtonCRUD}">
+            <Setter Property="Background" Value="#e74c3c"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#c0392b"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="TrendyDataGrid" TargetType="{x:Type DataGrid}">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#DDDDDD"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="RowBackground" Value="White"/>
+            <Setter Property="AlternatingRowBackground" Value="#F8F8F8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="HeadersVisibility" Value="Column"/>
+            <Setter Property="GridLinesVisibility" Value="Horizontal"/>
+            <Setter Property="HorizontalGridLinesBrush" Value="Gray"/>
+            <Setter Property="VerticalGridLinesBrush" Value="#DDDDDD"/>
+            <Setter Property="RowHeight" Value="30"/>
+
+            <Setter Property="CellStyle">
+                <Setter.Value>
+                    <Style TargetType="{x:Type DataGridCell}">
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="Padding" Value="0,0,0,0"/>
+                        <Setter Property="HorizontalAlignment" Value="Center"/>
+                        
+                    </Style>
+                </Setter.Value>
+            </Setter>
+
+            <Setter Property="ColumnHeaderStyle">
+                <Setter.Value>
+                    <Style TargetType="{x:Type DataGridColumnHeader}">
+                        <Setter Property="Background" Value="#F0F0F0"/>
+                        <Setter Property="Foreground" Value="{StaticResource TextColor}"/>
+                        <Setter Property="FontWeight" Value="SemiBold"/>
+                        <Setter Property="Height" Value="40"/>
+                        <Setter Property="BorderThickness" Value="0,0,0,2"/>
+                        <Setter Property="BorderBrush" Value="{StaticResource PrimaryColor}"/>
+                        <Setter Property="Padding" Value="0,0,0,0"/>
+                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    </Style>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="TrendyComboBox" TargetType="{x:Type ComboBox}">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="{StaticResource SecondaryColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Padding" Value="10,0,0,0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ComboBox}">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8">
+                            <Grid>
+                                <ContentPresenter IsHitTestVisible="False" Content="{TemplateBinding SelectionBoxItem}"
+                                                  ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                                                  ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                                                  Margin="{TemplateBinding Padding}"
+                                                  HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                  VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                <ToggleButton Grid.Column="2" Focusable="false"
+                                              IsChecked="{Binding Path=IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}">
+                                    <ToggleButton.Template>
+                                        <ControlTemplate TargetType="{x:Type ToggleButton}">
+                                            <Border Background="Transparent">
+                                                <Path HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                      Data="M0,0 L3,3 L6,0 Z" Fill="{StaticResource PrimaryColor}"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </ToggleButton.Template>
+                                </ToggleButton>
+                                <Popup x:Name="PART_Popup" AllowsTransparency="True" Placement="Bottom"
+                                       IsOpen="{TemplateBinding IsDropDownOpen}"
+                                       PopupAnimation="{DynamicResource {x:Static SystemParameters.ComboBoxPopupAnimationKey}}">
+                                    <Border BorderBrush="{StaticResource SecondaryColor}" BorderThickness="1" Background="White" MaxHeight="200">
+                                        <ScrollViewer Margin="4,6,4,6">
+                                            <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained"/>
+                                        </ScrollViewer>
+                                    </Border>
+                                </Popup>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>
