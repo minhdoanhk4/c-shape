@@ -1,0 +1,40 @@
+﻿<Window x:Class="CarManagement.GUI.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarManagement.GUI"
+        mc:Ignorable="d"
+        Title="Login" Height="500" Width="450"
+        Style="{StaticResource BaseWindowStyle}"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border Style="{StaticResource ContentCardStyle}"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Width="380">
+            <StackPanel>
+                <TextBlock Text="Login" 
+                           Style="{StaticResource HeaderTextStyle}" 
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <TextBlock Text="Email" Style="{StaticResource LabelTextStyle}"/>
+                <TextBox x:Name="txtEmail" Style="{StaticResource InputStyle}"
+                         Text="admin@gmail.com"/>
+                <!-- Giá trị mẫu để test -->
+
+                <TextBlock Text="Password" Style="{StaticResource LabelTextStyle}"/>
+                <PasswordBox x:Name="txtPassword" Style="{StaticResource PasswordBoxInputStyle}"/>
+
+                <Button x:Name="btnLogin" Content="Login" 
+                        Style="{StaticResource BtnPrimaryStyle}" 
+                        Margin="0,25,0,10"/>
+
+                <Button x:Name="btnRegister" Content="Don't have an account? Register" 
+                        Style="{StaticResource BtnOutlineStyle}"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

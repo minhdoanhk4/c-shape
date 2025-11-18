@@ -1,0 +1,44 @@
+﻿<Window x:Class="CarManagement.GUI.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarManagement.GUI"
+        mc:Ignorable="d"
+        Title="Register" Height="650" Width="450"
+        Style="{StaticResource BaseWindowStyle}"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border Style="{StaticResource ContentCardStyle}"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Width="380">
+            <StackPanel>
+                <TextBlock Text="Register" 
+                           Style="{StaticResource HeaderTextStyle}" 
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                <TextBlock Text="Full Name" Style="{StaticResource LabelTextStyle}"/>
+                <TextBox x:Name="txtFullName" Style="{StaticResource InputStyle}"/>
+
+                <TextBlock Text="Email" Style="{StaticResource LabelTextStyle}"/>
+                <TextBox x:Name="txtEmail" Style="{StaticResource InputStyle}"/>
+
+                <TextBlock Text="Password" Style="{StaticResource LabelTextStyle}"/>
+                <PasswordBox x:Name="txtPassword" Style="{StaticResource PasswordBoxInputStyle}"/>
+
+                <TextBlock Text="Confirm Password" Style="{StaticResource LabelTextStyle}"/>
+                <PasswordBox x:Name="txtConfirmPassword" Style="{StaticResource PasswordBoxInputStyle}"/>
+
+                <Button x:Name="btnRegister" Content="Register" 
+                        Style="{StaticResource BtnPrimaryStyle}" 
+                        Margin="0,25,0,10"/>
+
+                <Button x:Name="btnBackToLogin" Content="Back to Login" 
+                        Style="{StaticResource BtnOutlineStyle}"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
