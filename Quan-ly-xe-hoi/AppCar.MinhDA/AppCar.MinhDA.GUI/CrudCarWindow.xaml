@@ -1,0 +1,163 @@
+﻿<Window x:Class="AppCar.MinhDA.GUI.CrudCarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppCar.MinhDA.GUI"
+        mc:Ignorable="d"
+        Title="Thông Tin Xe Hơi" Height="600" Width="900"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResize"
+        Background="{StaticResource BackgroundLightBrush}" Loaded="Window_Loaded">
+
+    <Border Padding="25" Background="White" Margin="15" CornerRadius="{StaticResource CornerRadiusMedium}">
+        <Border.Effect>
+            <DropShadowEffect Color="#DDDDDD" BlurRadius="10" ShadowDepth="3"/>
+        </Border.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Margin="0,0,0,20">
+                <TextBlock x:Name="CrudMode" 
+                           Text=""
+                           FontSize="24" 
+                           FontWeight="Bold" 
+                           Foreground="{StaticResource PrimaryBrush}"
+                           HorizontalAlignment="Center"/>
+                <TextBlock Text="Vui lòng điền đầy đủ thông tin bên dưới" 
+                           FontSize="14" 
+                           Foreground="#888888"
+                           HorizontalAlignment="Center"
+                           Margin="0,5,0,0"/>
+            </StackPanel>
+
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Margin="0,0,0,20">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="40"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0">
+                        <Label Content="Mã Xe (ID):"/>
+                        <TextBox x:Name="txtCarId" 
+                                 IsReadOnly="True" 
+                                 Background="#F9F9F9" 
+                                 Tag="Tự động sinh"
+                                 Cursor="Arrow"/>
+
+                        <Label Content="Mẫu Xe:"/>
+                        <TextBox x:Name="txtCarModel" Tag="Ví dụ: VF 8, Ranger Raptor..."/>
+
+                        <Label Content="Thương Hiệu:"/>
+                        <ComboBox x:Name="cboBrand" 
+                                  Cursor="Hand"/>
+
+                        <Label Content="Loại Xe:"/>
+                        <ComboBox x:Name="cboCarType" 
+                                  Cursor="Hand"/>
+
+                        <Label Content="Động cơ:"/>
+                        <TextBox x:Name="txtEngine" Tag="Ví dụ: Điện, Xăng 2.0L Turbo..."/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="20"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0">
+                                <Label Content="Năm Sản Xuất:"/>
+                                <TextBox x:Name="txtYear" 
+                                         Tag="VD: 2023"
+                                         />
+                            </StackPanel>
+
+                            <StackPanel Grid.Column="2">
+                                <Label Content="Bảo hành (Tháng):"/>
+                                <TextBox x:Name="txtWarranty" 
+                                         Tag="VD: 36"
+                                         />
+                            </StackPanel>
+                        </Grid>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="20"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0">
+                                <Label Content="Số chỗ ngồi:"/>
+                                <TextBox x:Name="txtSeat" 
+                                         Tag="VD: 5"
+                                         />
+                            </StackPanel>
+
+                            <StackPanel Grid.Column="2">
+                                <Label Content="Giá Thành ($):"/>
+                                <TextBox x:Name="txtPrice" 
+                                         Tag="VD: 25000"
+                                         FontWeight="Bold" 
+                                         Foreground="#D32F2F"/>
+                            </StackPanel>
+                        </Grid>
+
+                        <Label Content="Mô tả chi tiết:"/>
+                        <TextBox x:Name="txtDescription" 
+                                 Tag="Nhập mô tả về tính năng, ưu điểm của xe..."
+                                 Height="120" 
+                                 TextWrapping="Wrap" 
+                                 AcceptsReturn="True" 
+                                 VerticalContentAlignment="Top"
+                                 Padding="10"/>
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="btnCancel" 
+                        Content="Hủy Bỏ" 
+                        Width="120" 
+                        Background="#DDDDDD" 
+                        Foreground="#333333"
+                        Margin="0,0,15,0"
+                        Click="btnCancel_Click">
+                    <Button.Style>
+                        <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border x:Name="border" CornerRadius="{StaticResource CornerRadiusMedium}" Background="{TemplateBinding Background}">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="border" Property="Background" Value="#CCCCCC"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+                <Button x:Name="btnSave" 
+                        Content="💾 LƯU THÔNG TIN" 
+                        Width="180" 
+                        Click="btnSave_Click"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

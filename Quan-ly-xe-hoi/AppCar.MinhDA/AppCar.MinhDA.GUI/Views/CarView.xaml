@@ -1,0 +1,94 @@
+﻿<UserControl x:Class="AppCar.MinhDA.GUI.Views.CarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AppCar.MinhDA.GUI.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1000" Loaded="UserControl_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Margin="0,0,0,15" Padding="10" Background="{StaticResource BackgroundSidebarBrush}" CornerRadius="{StaticResource CornerRadiusSmall}">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+
+                <Button Content="➕ THÊM MỚI" 
+                        x:Name="AddButton"
+                        Style="{StaticResource {x:Type Button}}"
+                        Margin="0,0,15,0"
+                        MinWidth="120" Click="AddButton_Click"/>
+
+                <Button Content="✏️ SỬA" 
+                        x:Name="EditButton" 
+                        Style="{StaticResource {x:Type Button}}"
+                        Background="#00BCD4"
+                        Margin="0,0,15,0"
+                        MinWidth="120" Click="EditButton_Click"/>
+
+                <Button Content="🗑️ XÓA" 
+                        x:Name="DeleteButton"
+                        Style="{StaticResource {x:Type Button}}"
+                        Background="#D32F2F"
+                        Margin="0,0,30,0"
+                        MinWidth="120" Click="DeleteButton_Click"/>
+
+                <Button x:Name="RefreshButton"
+                        Content="🔄 TẢI LẠI"
+                        Style="{StaticResource {x:Type Button}}"
+                        Background="#999999"
+                        Margin="0,0,30,0"
+                        MinWidth="120" Click="RefreshButton_Click"/>
+
+                <TextBox x:Name="txtSearch" 
+                         Width="300"
+                         Style="{StaticResource {x:Type TextBox}}"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1" 
+        BorderBrush="#E0E0E0" 
+        BorderThickness="1" 
+        CornerRadius="10" 
+        ClipToBounds="True">
+            <DataGrid Grid.Row="1" x:Name="CarDataGrid" 
+                  AutoGenerateColumns="False">
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding CarId}" Width="50"
+                                        ElementStyle="{StaticResource CenterVerticalStyle}"/>
+                    <DataGridTextColumn Header="Mẫu Xe" Binding="{Binding CarModel}" Width="150"
+                                        ElementStyle="{StaticResource CenterVerticalStyle}"/>
+                    <DataGridTextColumn Header="Loại Xe" Binding="{Binding CarType.TypeModel}" Width="100"
+                                        ElementStyle="{StaticResource CenterVerticalStyle}"/>
+                    <DataGridTextColumn Header="Động cơ" Binding="{Binding CarEngine}" Width="100"
+                                        ElementStyle="{StaticResource CenterVerticalStyle}"/>
+                    <DataGridTextColumn Header="Mô tả" Binding="{Binding CarDescription}" Width="200">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Left"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="TextWrapping" Value="NoWrap"/>
+                                <Setter Property="Padding" Value="5"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="Số chỗ ngồi" Binding="{Binding CarSeat}" Width="100"
+                                        ElementStyle="{StaticResource CenterVerticalStyle}"/>
+                    <DataGridTextColumn Header="Sản Xuất" Binding="{Binding YearPublish}" Width="70"
+                                        ElementStyle="{StaticResource CenterVerticalStyle}"/>
+                    <DataGridTextColumn Header="Giá thành ($)" Binding="{Binding DollarPrice}" Width="100"
+                                        ElementStyle="{StaticResource CenterVerticalStyle}"/>
+                    <DataGridTextColumn Header="Bảo hành" Binding="{Binding CarWarranty}" Width="80"
+                                        ElementStyle="{StaticResource CenterVerticalStyle}"/>
+                    <DataGridTextColumn Header="Thương Hiệu" Binding="{Binding Brand.BrandName}" Width="100"
+                                        ElementStyle="{StaticResource CenterVerticalStyle}"/>
+
+                </DataGrid.Columns>
+
+            </DataGrid>
+        </Border>
+    </Grid>
+</UserControl>

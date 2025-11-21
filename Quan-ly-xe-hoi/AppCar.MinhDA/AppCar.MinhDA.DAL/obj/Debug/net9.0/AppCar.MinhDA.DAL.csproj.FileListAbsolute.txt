@@ -1,0 +1,14 @@
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\bin\Debug\net9.0\AppCar.MinhDA.DAL.deps.json
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\bin\Debug\net9.0\AppCar.MinhDA.DAL.runtimeconfig.json
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\bin\Debug\net9.0\AppCar.MinhDA.DAL.dll
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\bin\Debug\net9.0\AppCar.MinhDA.DAL.pdb
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\obj\Debug\net9.0\AppCar.MinhDA.DAL.csproj.AssemblyReference.cache
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\obj\Debug\net9.0\AppCar.MinhDA.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\obj\Debug\net9.0\AppCar.MinhDA.DAL.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\obj\Debug\net9.0\AppCar.MinhDA.DAL.AssemblyInfo.cs
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\obj\Debug\net9.0\AppCar.MinhDA.DAL.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\obj\Debug\net9.0\AppCar.MinhDA.DAL.dll
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\obj\Debug\net9.0\refint\AppCar.MinhDA.DAL.dll
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\obj\Debug\net9.0\AppCar.MinhDA.DAL.pdb
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\obj\Debug\net9.0\AppCar.MinhDA.DAL.genruntimeconfig.cache
+C:\Users\msi2k\Documents\AppCar.MinhDA\AppCar.MinhDA.DAL\obj\Debug\net9.0\ref\AppCar.MinhDA.DAL.dll

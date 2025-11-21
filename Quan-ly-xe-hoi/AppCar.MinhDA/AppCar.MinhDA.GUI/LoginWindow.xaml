@@ -1,0 +1,62 @@
+﻿<Window x:Class="AppCar.MinhDA.GUI.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppCar.MinhDA.GUI"
+        mc:Ignorable="d"
+        Title="Đăng Nhập Hệ Thống" Height="600" Width="450"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True" WindowStyle="None"
+        Background="{StaticResource BackgroundLightBrush}">
+
+    <Border Padding="40" Background="Transparent">
+        <Border Background="{StaticResource BackgroundPanelBrush}"
+                CornerRadius="{StaticResource CornerRadiusLarge}"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Stretch">
+
+            <Border.Effect>
+                <DropShadowEffect Color="#AAAAAA" Direction="270" ShadowDepth="5" Opacity="0.3" BlurRadius="10"/>
+            </Border.Effect>
+
+            <StackPanel Margin="30">
+                <TextBlock Text="Đăng Nhập" 
+                           Foreground="{StaticResource PrimaryBrush}"
+                           FontSize="28" 
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,30"/>
+
+                <TextBlock Text="Tên đăng nhập" 
+                           Foreground="{StaticResource ForegroundDarkBrush}"
+                           Margin="0,10,0,5"/>
+                <TextBox x:Name="txtUsername" 
+                         Style="{StaticResource {x:Type TextBox}}"
+                         TabIndex="0"/>
+
+                <TextBlock Text="Mật khẩu" 
+                           Foreground="{StaticResource ForegroundDarkBrush}"
+                           Margin="0,20,0,5"/>
+                <PasswordBox x:Name="txtPassword" 
+                             Style="{StaticResource {x:Type PasswordBox}}"
+                             TabIndex="1"/>
+
+                <Button x:Name="LoginButton" 
+                        Content="ĐĂNG NHẬP" 
+                        Style="{StaticResource {x:Type Button}}"
+                        Margin="0,35,0,0"
+                        TabIndex="2" Click="LoginButton_Click"/>
+
+                <Button x:Name="CloseButton" 
+                        Content="THOÁT" 
+                        Background="Transparent"
+                        Foreground="{StaticResource PrimaryBrush}"
+                        BorderThickness="0"
+                        Margin="0,15,0,0"
+                        HorizontalAlignment="Center" Click="CloseButton_Click"/>
+
+            </StackPanel>
+        </Border>
+    </Border>
+</Window>

@@ -1,0 +1,84 @@
+﻿<Window x:Class="AppCar.MinhDA.GUI.ManagementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppCar.MinhDA.GUI"
+        mc:Ignorable="d"
+        Title="Hệ Thống Quản Lý Xe Hơi" Height="600" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource BackgroundLightBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" 
+                Background="{StaticResource BackgroundSidebarBrush}"
+                Padding="0,30,0,20">
+            <StackPanel>
+
+                <TextBlock Text="AppCar Dashboard" 
+                           Foreground="{StaticResource PrimaryBrush}"
+                           FontSize="20" 
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,50"/>
+
+                <StackPanel>
+                    <RadioButton Content="🚗 Quản Lý Xe Hơi" 
+                                 Tag="CarView" 
+                                 Style="{StaticResource SidebarMenuItemStyle}"/>
+                    <RadioButton Content="🏷️ Quản Lý Thương Hiệu" 
+                                 Tag="BrandView" 
+                                 Style="{StaticResource SidebarMenuItemStyle}"/>
+                    <RadioButton Content="⚙️ Quản Lý Loại Xe" 
+                                 Tag="CarTypeView" 
+                                 Style="{StaticResource SidebarMenuItemStyle}"/>
+                    <RadioButton Content="👤 Quản Lý Tài Khoản" 
+                                 Tag="AccountView" 
+                                 Style="{StaticResource SidebarMenuItemStyle}"/>
+                </StackPanel>
+
+                <StackPanel VerticalAlignment="Bottom" Margin="0,150,0,0">
+                    <Separator Margin="20,0,20,10" Background="#CCCCCC"/>
+                    <Button x:Name="LogoutButton" 
+                            Content="ĐĂNG XUẤT" 
+                            Background="Transparent"
+                            Foreground="#D32F2F"
+                            BorderThickness="0"
+                            Padding="20,10"
+                            HorizontalAlignment="Center"
+                            FontWeight="SemiBold"
+                            MinWidth="80" Click="LogoutButton_Click_1"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <Grid Grid.Column="1" Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0"
+                       Text="Dashboard / Quản Lý Xe Hơi" 
+                       Foreground="{StaticResource ForegroundDarkBrush}"
+                       FontSize="24" 
+                       FontWeight="Bold"
+                       Margin="0,0,0,20"/>
+
+            <Border Grid.Row="1"
+                    Background="{StaticResource BackgroundPanelBrush}"
+                    CornerRadius="{StaticResource CornerRadiusLarge}"
+                    Padding="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="#EEEEEE" Direction="270" ShadowDepth="3" Opacity="0.5" BlurRadius="10"/>
+                </Border.Effect>
+
+                <ContentControl x:Name="ContentArea"/>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
