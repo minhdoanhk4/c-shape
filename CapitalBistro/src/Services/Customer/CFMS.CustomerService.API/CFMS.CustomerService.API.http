@@ -1,0 +1,35 @@
+@CustomerAPI = https://localhost:7198
+@Token = paste_your_jwt_token_here
+
+# 1. ĐĂNG KÝ KHÁCH HÀNG MỚI (Global - Không cần Token)
+POST {{CustomerAPI}}/api/customers
+Content-Type: application/json
+
+{
+  "fullName": "Le Van Khach",
+  "phoneNumber": "0987654321",
+  "email": "khach@gmail.com",
+  "dateOfBirth": "1995-10-25T00:00:00Z"
+}
+
+###
+
+# 2. TÌM KIẾM KHÁCH HÀNG QUA ĐIỆN THOẠI (Dùng Token Staff lúc ở quầy POS)
+GET {{CustomerAPI}}/api/customers/0987654321
+Authorization: Bearer {{Token}}
+
+###
+
+# 3. TÍCH ĐIỂM HOẶC TRỪ ĐIỂM CHO KHÁCH HÀNG
+@CustomerId = paste_customer_id_here
+
+POST {{CustomerAPI}}/api/customers/{{CustomerId}}/loyalty-transaction
+Authorization: Bearer {{Token}}
+Content-Type: application/json
+
+{
+  "orderId": "00000000-0000-0000-0000-000000000001",
+  "pointsEarned": 2000,
+  "pointsRedeemed": 0,
+  "note": "Khuyến mãi nạp lần đầu"
+}

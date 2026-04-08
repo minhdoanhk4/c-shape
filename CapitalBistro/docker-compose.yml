@@ -1,0 +1,257 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: cfms-sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong#Password2025
+    ports:
+      - "1433:1433"
+    networks:
+      - cfms-network
+
+  zookeeper:
+    image: zookeeper:3.9
+    container_name: cfms-zookeeper
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+    networks:
+      - cfms-network
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    container_name: cfms-kafka
+    environment:
+      - KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
+      - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092
+      - KAFKA_LISTENER_SECURITY_PROTOCOL_MAP=PLAINTEXT:PLAINTEXT
+      - KAFKA_INTER_BROKER_LISTENER_NAME=PLAINTEXT
+      - KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1
+    depends_on:
+      - zookeeper
+    networks:
+      - cfms-network
+
+  authservice:
+    build:
+      context: .
+      dockerfile: src/Services/Auth/CFMS.AuthService.API/Dockerfile
+    container_name: cfms-authservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__CFMS_AuthDb=Server=sqlserver;Database=CFMS_AuthDb;User Id=sa;Password=YourStrong#Password2025;TrustServerCertificate=True
+    depends_on:
+      - sqlserver
+    networks:
+      - cfms-network
+
+  productservice:
+    build:
+      context: .
+      dockerfile: src/Services/Product/CFMS.ProductService.API/Dockerfile
+    container_name: cfms-productservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__CFMS_ProductDb=Server=sqlserver;Database=CFMS_ProductDb;User Id=sa;Password=YourStrong#Password2025;TrustServerCertificate=True
+    depends_on:
+      - sqlserver
+    networks:
+      - cfms-network
+
+  inventoryservice:
+    build:
+      context: .
+      dockerfile: src/Services/Inventory/CFMS.InventoryService.API/Dockerfile
+    container_name: cfms-inventoryservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__CFMS_InventoryDb=Server=sqlserver;Database=CFMS_InventoryDb;User Id=sa;Password=YourStrong#Password2025;TrustServerCertificate=True
+      - Kafka__Host=kafka:9092
+    depends_on:
+      - sqlserver
+      - kafka
+    networks:
+      - cfms-network
+
+  orderservice:
+    build:
+      context: .
+      dockerfile: src/Services/Order/CFMS.OrderService.API/Dockerfile
+    container_name: cfms-orderservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__CFMS_OrderDb=Server=sqlserver;Database=CFMS_OrderDb;User Id=sa;Password=YourStrong#Password2025;TrustServerCertificate=True
+      - Kafka__Host=kafka:9092
+    depends_on:
+      - sqlserver
+      - kafka
+    networks:
+      - cfms-network
+
+  customerservice:
+    build:
+      context: .
+      dockerfile: src/Services/Customer/CFMS.CustomerService.API/Dockerfile
+    container_name: cfms-customerservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__CFMS_CustomerDb=Server=sqlserver;Database=CFMS_CustomerDb;User Id=sa;Password=YourStrong#Password2025;TrustServerCertificate=True
+      - Kafka__Host=kafka:9092
+    depends_on:
+      - sqlserver
+      - kafka
+    networks:
+      - cfms-network
+
+  shiftservice:
+    build:
+      context: .
+      dockerfile: src/Services/Shift/CFMS.ShiftService.API/Dockerfile
+    container_name: cfms-shiftservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__CFMS_ShiftDb=Server=sqlserver;Database=CFMS_ShiftDb;User Id=sa;Password=YourStrong#Password2025;TrustServerCertificate=True
+    depends_on:
+      - sqlserver
+    networks:
+      - cfms-network
+
+  deliveryservice:
+    build:
+      context: .
+      dockerfile: src/Services/Delivery/CFMS.DeliveryService.API/Dockerfile
+    container_name: cfms-deliveryservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__CFMS_DeliveryDb=Server=sqlserver;Database=CFMS_DeliveryDb;User Id=sa;Password=YourStrong#Password2025;TrustServerCertificate=True
+    depends_on:
+      - sqlserver
+    networks:
+      - cfms-network
+
+  paymentservice:
+    build:
+      context: .
+      dockerfile: src/Services/Payment/CFMS.PaymentService.API/Dockerfile
+    container_name: cfms-paymentservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__CFMS_PaymentDb=Server=sqlserver;Database=CFMS_PaymentDb;User Id=sa;Password=YourStrong#Password2025;TrustServerCertificate=True
+    depends_on:
+      - sqlserver
+    networks:
+      - cfms-network
+
+  promotionservice:
+    build:
+      context: .
+      dockerfile: src/Services/Promotion/CFMS.PromotionService.API/Dockerfile
+    container_name: cfms-promotionservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__CFMS_PromotionDb=Server=sqlserver;Database=CFMS_PromotionDb;User Id=sa;Password=YourStrong#Password2025;TrustServerCertificate=True
+    depends_on:
+      - sqlserver
+    networks:
+      - cfms-network
+
+  reportingservice:
+    build:
+      context: .
+      dockerfile: src/Services/Reporting/CFMS.ReportingService.API/Dockerfile
+    container_name: cfms-reportingservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__CFMS_ReportingDb=Server=sqlserver;Database=CFMS_ReportingDb;User Id=sa;Password=YourStrong#Password2025;TrustServerCertificate=True
+    depends_on:
+      - sqlserver
+    networks:
+      - cfms-network
+
+  franchiseservice:
+    build:
+      context: .
+      dockerfile: src/Services/Franchise/CFMS.FranchiseService.API/Dockerfile
+    container_name: cfms-franchiseservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__CFMS_FranchiseDb=Server=sqlserver;Database=CFMS_FranchiseDb;User Id=sa;Password=YourStrong#Password2025;TrustServerCertificate=True
+    depends_on:
+      - sqlserver
+    networks:
+      - cfms-network
+
+  redis:
+    image: redis:alpine
+    container_name: cfms-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - cfms-network
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.1
+    container_name: cfms-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+    networks:
+      - cfms-network
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.11.1
+    container_name: cfms-kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+    networks:
+      - cfms-network
+
+  gateway:
+    build:
+      context: .
+      dockerfile: src/API_Gateway/CFMS.Gateway.API/Dockerfile
+    container_name: cfms-gateway
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8000:8080"
+    depends_on:
+      - authservice
+      - productservice
+      - inventoryservice
+      - orderservice
+      - customerservice
+      - shiftservice
+      - deliveryservice
+      - paymentservice
+      - promotionservice
+      - reportingservice
+      - franchiseservice
+      - redis
+      - elasticsearch
+      - kibana
+    networks:
+      - cfms-network
+
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    container_name: cfms-jaeger
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+    ports:
+      - "16686:16686"
+      - "4317:4317"
+      - "4318:4318"
+    networks:
+      - cfms-network
+
+networks:
+  cfms-network:
+    driver: bridge

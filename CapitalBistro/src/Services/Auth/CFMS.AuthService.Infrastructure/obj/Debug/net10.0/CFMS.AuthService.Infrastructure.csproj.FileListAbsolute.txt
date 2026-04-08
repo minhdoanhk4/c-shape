@@ -1,0 +1,17 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\bin\Debug\net10.0\CFMS.AuthService.Infrastructure.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\bin\Debug\net10.0\CFMS.AuthService.Infrastructure.runtimeconfig.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\bin\Debug\net10.0\CFMS.AuthService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\bin\Debug\net10.0\CFMS.AuthService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\bin\Debug\net10.0\CFMS.AuthService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\bin\Debug\net10.0\CFMS.AuthService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\obj\Debug\net10.0\CFMS.AuthService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\obj\Debug\net10.0\CFMS.AuthService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\obj\Debug\net10.0\CFMS.AuthService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\obj\Debug\net10.0\CFMS.AuthService.Infrastructure.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\obj\Debug\net10.0\CFMS.AuthService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\obj\Debug\net10.0\CFMS.Aut.6A05D78B.Up2Date
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\obj\Debug\net10.0\CFMS.AuthService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\obj\Debug\net10.0\refint\CFMS.AuthService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\obj\Debug\net10.0\CFMS.AuthService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\obj\Debug\net10.0\CFMS.AuthService.Infrastructure.genruntimeconfig.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Infrastructure\obj\Debug\net10.0\ref\CFMS.AuthService.Infrastructure.dll

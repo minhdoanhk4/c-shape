@@ -1,0 +1,11 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Core\bin\Debug\net10.0\CFMS.DeliveryService.Core.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Core\bin\Debug\net10.0\CFMS.DeliveryService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Core\bin\Debug\net10.0\CFMS.DeliveryService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Core\obj\Debug\net10.0\CFMS.DeliveryService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Core\obj\Debug\net10.0\CFMS.DeliveryService.Core.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Core\obj\Debug\net10.0\CFMS.DeliveryService.Core.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Core\obj\Debug\net10.0\CFMS.DeliveryService.Core.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Core\obj\Debug\net10.0\CFMS.DeliveryService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Core\obj\Debug\net10.0\refint\CFMS.DeliveryService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Core\obj\Debug\net10.0\CFMS.DeliveryService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Core\obj\Debug\net10.0\ref\CFMS.DeliveryService.Core.dll

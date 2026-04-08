@@ -1,0 +1,11 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Core\bin\Debug\net10.0\CFMS.PaymentService.Core.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Core\bin\Debug\net10.0\CFMS.PaymentService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Core\bin\Debug\net10.0\CFMS.PaymentService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Core\obj\Debug\net10.0\CFMS.PaymentService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Core\obj\Debug\net10.0\CFMS.PaymentService.Core.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Core\obj\Debug\net10.0\CFMS.PaymentService.Core.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Core\obj\Debug\net10.0\CFMS.PaymentService.Core.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Core\obj\Debug\net10.0\CFMS.PaymentService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Core\obj\Debug\net10.0\refint\CFMS.PaymentService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Core\obj\Debug\net10.0\CFMS.PaymentService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Core\obj\Debug\net10.0\ref\CFMS.PaymentService.Core.dll

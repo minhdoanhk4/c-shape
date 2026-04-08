@@ -1,0 +1,17 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\bin\Debug\net10.0\CFMS.PaymentService.Infrastructure.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\bin\Debug\net10.0\CFMS.PaymentService.Infrastructure.runtimeconfig.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\bin\Debug\net10.0\CFMS.PaymentService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\bin\Debug\net10.0\CFMS.PaymentService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\bin\Debug\net10.0\CFMS.PaymentService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\bin\Debug\net10.0\CFMS.PaymentService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\obj\Debug\net10.0\CFMS.PaymentService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\obj\Debug\net10.0\CFMS.PaymentService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\obj\Debug\net10.0\CFMS.PaymentService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\obj\Debug\net10.0\CFMS.PaymentService.Infrastructure.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\obj\Debug\net10.0\CFMS.PaymentService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\obj\Debug\net10.0\CFMS.Pay.D5E1B014.Up2Date
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\obj\Debug\net10.0\CFMS.PaymentService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\obj\Debug\net10.0\refint\CFMS.PaymentService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\obj\Debug\net10.0\CFMS.PaymentService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\obj\Debug\net10.0\CFMS.PaymentService.Infrastructure.genruntimeconfig.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Payment\CFMS.PaymentService.Infrastructure\obj\Debug\net10.0\ref\CFMS.PaymentService.Infrastructure.dll

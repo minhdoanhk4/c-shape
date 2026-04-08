@@ -1,0 +1,17 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\bin\Debug\net10.0\CFMS.PromotionService.Infrastructure.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\bin\Debug\net10.0\CFMS.PromotionService.Infrastructure.runtimeconfig.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\bin\Debug\net10.0\CFMS.PromotionService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\bin\Debug\net10.0\CFMS.PromotionService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\bin\Debug\net10.0\CFMS.PromotionService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\bin\Debug\net10.0\CFMS.PromotionService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\obj\Debug\net10.0\CFMS.PromotionService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\obj\Debug\net10.0\CFMS.PromotionService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\obj\Debug\net10.0\CFMS.PromotionService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\obj\Debug\net10.0\CFMS.PromotionService.Infrastructure.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\obj\Debug\net10.0\CFMS.PromotionService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\obj\Debug\net10.0\CFMS.Pro.32253BB4.Up2Date
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\obj\Debug\net10.0\CFMS.PromotionService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\obj\Debug\net10.0\refint\CFMS.PromotionService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\obj\Debug\net10.0\CFMS.PromotionService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\obj\Debug\net10.0\CFMS.PromotionService.Infrastructure.genruntimeconfig.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Infrastructure\obj\Debug\net10.0\ref\CFMS.PromotionService.Infrastructure.dll

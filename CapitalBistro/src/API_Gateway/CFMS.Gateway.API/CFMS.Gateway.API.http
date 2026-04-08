@@ -1,0 +1,6 @@
+@CFMS.Gateway.API_HostAddress = http://localhost:5194
+
+GET {{CFMS.Gateway.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

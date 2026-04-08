@@ -1,0 +1,11 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Core\bin\Debug\net10.0\CFMS.ReportingService.Core.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Core\bin\Debug\net10.0\CFMS.ReportingService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Core\bin\Debug\net10.0\CFMS.ReportingService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Core\obj\Debug\net10.0\CFMS.ReportingService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Core\obj\Debug\net10.0\CFMS.ReportingService.Core.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Core\obj\Debug\net10.0\CFMS.ReportingService.Core.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Core\obj\Debug\net10.0\CFMS.ReportingService.Core.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Core\obj\Debug\net10.0\CFMS.ReportingService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Core\obj\Debug\net10.0\refint\CFMS.ReportingService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Core\obj\Debug\net10.0\CFMS.ReportingService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Core\obj\Debug\net10.0\ref\CFMS.ReportingService.Core.dll

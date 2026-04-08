@@ -1,0 +1,17 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\bin\Debug\net10.0\CFMS.InventoryService.Infrastructure.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\bin\Debug\net10.0\CFMS.InventoryService.Infrastructure.runtimeconfig.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\bin\Debug\net10.0\CFMS.InventoryService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\bin\Debug\net10.0\CFMS.InventoryService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\bin\Debug\net10.0\CFMS.InventoryService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\bin\Debug\net10.0\CFMS.InventoryService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\obj\Debug\net10.0\CFMS.InventoryService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\obj\Debug\net10.0\CFMS.InventoryService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\obj\Debug\net10.0\CFMS.InventoryService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\obj\Debug\net10.0\CFMS.InventoryService.Infrastructure.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\obj\Debug\net10.0\CFMS.InventoryService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\obj\Debug\net10.0\CFMS.Inv.E8FECCC6.Up2Date
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\obj\Debug\net10.0\CFMS.InventoryService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\obj\Debug\net10.0\refint\CFMS.InventoryService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\obj\Debug\net10.0\CFMS.InventoryService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\obj\Debug\net10.0\CFMS.InventoryService.Infrastructure.genruntimeconfig.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Inventory\CFMS.InventoryService.Infrastructure\obj\Debug\net10.0\ref\CFMS.InventoryService.Infrastructure.dll

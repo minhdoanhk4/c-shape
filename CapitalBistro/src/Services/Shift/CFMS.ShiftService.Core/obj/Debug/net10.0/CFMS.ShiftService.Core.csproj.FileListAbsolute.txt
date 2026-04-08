@@ -1,0 +1,11 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Core\bin\Debug\net10.0\CFMS.ShiftService.Core.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Core\bin\Debug\net10.0\CFMS.ShiftService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Core\bin\Debug\net10.0\CFMS.ShiftService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Core\obj\Debug\net10.0\CFMS.ShiftService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Core\obj\Debug\net10.0\CFMS.ShiftService.Core.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Core\obj\Debug\net10.0\CFMS.ShiftService.Core.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Core\obj\Debug\net10.0\CFMS.ShiftService.Core.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Core\obj\Debug\net10.0\CFMS.ShiftService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Core\obj\Debug\net10.0\refint\CFMS.ShiftService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Core\obj\Debug\net10.0\CFMS.ShiftService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Core\obj\Debug\net10.0\ref\CFMS.ShiftService.Core.dll

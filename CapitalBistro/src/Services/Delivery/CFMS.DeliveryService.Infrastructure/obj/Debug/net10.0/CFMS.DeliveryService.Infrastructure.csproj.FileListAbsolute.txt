@@ -1,0 +1,17 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\bin\Debug\net10.0\CFMS.DeliveryService.Infrastructure.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\bin\Debug\net10.0\CFMS.DeliveryService.Infrastructure.runtimeconfig.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\bin\Debug\net10.0\CFMS.DeliveryService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\bin\Debug\net10.0\CFMS.DeliveryService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\bin\Debug\net10.0\CFMS.DeliveryService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\bin\Debug\net10.0\CFMS.DeliveryService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\obj\Debug\net10.0\CFMS.DeliveryService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\obj\Debug\net10.0\CFMS.DeliveryService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\obj\Debug\net10.0\CFMS.DeliveryService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\obj\Debug\net10.0\CFMS.DeliveryService.Infrastructure.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\obj\Debug\net10.0\CFMS.DeliveryService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\obj\Debug\net10.0\CFMS.Del.5168E878.Up2Date
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\obj\Debug\net10.0\CFMS.DeliveryService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\obj\Debug\net10.0\refint\CFMS.DeliveryService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\obj\Debug\net10.0\CFMS.DeliveryService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\obj\Debug\net10.0\CFMS.DeliveryService.Infrastructure.genruntimeconfig.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Delivery\CFMS.DeliveryService.Infrastructure\obj\Debug\net10.0\ref\CFMS.DeliveryService.Infrastructure.dll

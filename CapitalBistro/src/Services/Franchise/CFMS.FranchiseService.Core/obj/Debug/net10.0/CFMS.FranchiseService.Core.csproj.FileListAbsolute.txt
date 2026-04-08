@@ -1,0 +1,11 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Core\bin\Debug\net10.0\CFMS.FranchiseService.Core.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Core\bin\Debug\net10.0\CFMS.FranchiseService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Core\bin\Debug\net10.0\CFMS.FranchiseService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Core\obj\Debug\net10.0\CFMS.FranchiseService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Core\obj\Debug\net10.0\CFMS.FranchiseService.Core.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Core\obj\Debug\net10.0\CFMS.FranchiseService.Core.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Core\obj\Debug\net10.0\CFMS.FranchiseService.Core.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Core\obj\Debug\net10.0\CFMS.FranchiseService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Core\obj\Debug\net10.0\refint\CFMS.FranchiseService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Core\obj\Debug\net10.0\CFMS.FranchiseService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Core\obj\Debug\net10.0\ref\CFMS.FranchiseService.Core.dll

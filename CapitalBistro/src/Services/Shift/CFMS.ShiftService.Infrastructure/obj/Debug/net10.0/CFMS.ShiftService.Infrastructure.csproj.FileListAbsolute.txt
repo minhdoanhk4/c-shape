@@ -1,0 +1,17 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\bin\Debug\net10.0\CFMS.ShiftService.Infrastructure.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\bin\Debug\net10.0\CFMS.ShiftService.Infrastructure.runtimeconfig.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\bin\Debug\net10.0\CFMS.ShiftService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\bin\Debug\net10.0\CFMS.ShiftService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\bin\Debug\net10.0\CFMS.ShiftService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\bin\Debug\net10.0\CFMS.ShiftService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\obj\Debug\net10.0\CFMS.ShiftService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\obj\Debug\net10.0\CFMS.ShiftService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\obj\Debug\net10.0\CFMS.ShiftService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\obj\Debug\net10.0\CFMS.ShiftService.Infrastructure.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\obj\Debug\net10.0\CFMS.ShiftService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\obj\Debug\net10.0\CFMS.Shi.632B6A10.Up2Date
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\obj\Debug\net10.0\CFMS.ShiftService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\obj\Debug\net10.0\refint\CFMS.ShiftService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\obj\Debug\net10.0\CFMS.ShiftService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\obj\Debug\net10.0\CFMS.ShiftService.Infrastructure.genruntimeconfig.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Shift\CFMS.ShiftService.Infrastructure\obj\Debug\net10.0\ref\CFMS.ShiftService.Infrastructure.dll

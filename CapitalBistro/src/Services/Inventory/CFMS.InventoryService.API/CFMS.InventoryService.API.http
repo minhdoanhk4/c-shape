@@ -1,0 +1,40 @@
+@InventoryAPI = https://localhost:7234
+@AuthAPI = https://localhost:7245 
+# (Lưu ý: Đổi 7245 thành cổng HTTPS của AuthService nếu khác)
+
+# -------------------------------------------------------------
+# 1. MÔ PHỎNG TOKEN JWT GIẢ DÙNG ĐỂ TEST BẰNG CODE BÊN DƯỚI
+# Tuy nhiên, cách tốt nhất là bạn chạy AuthService, gọi POST /api/auth/login 
+# rồi copy cái Token kết quả dán vào biến {{Token}} thay cho ví dụ này nhé.
+# -------------------------------------------------------------
+@Token = 
+
+### 1️⃣ Lấy danh sách tồn kho hiện tại
+GET {{InventoryAPI}}/api/inventory
+Authorization: Bearer {{Token}}
+Accept: application/json
+
+### 2️⃣ Cảnh báo các mặt hàng sắp hết (Số lượng <= Mức cảnh báo MinThreshold) 
+GET {{InventoryAPI}}/api/inventory/low-stock
+Authorization: Bearer {{Token}}
+Accept: application/json
+
+### 3️⃣ Nhập/Xuất kho (Ghi nhận Giao dịch)
+# Lưu ý nhỏ: API tự động lấy FranchiseId từ Token, không cần truyền trong Body.
+# Gửi lên mã tham chiếu IngredientId lấy từ màn hình quản lý Product.
+POST {{InventoryAPI}}/api/inventory/transaction
+Authorization: Bearer {{Token}}
+Content-Type: application/json
+
+{
+  "ingredientId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "transactionType": 1, 
+  "quantityChanged": 50,
+  "reason": "Nhập đợt 1 từ HQ"
+}
+
+# Ghi chú Loại giao dịch (TransactionType):
+# 1 = Inbound (Nhập)
+# 2 = Outbound (Xuất)
+# 3 = Adjustment (Điều chỉnh do sai sót kiểm kê)
+# 4 = Waste (Phế phẩm/Hư hỏng)

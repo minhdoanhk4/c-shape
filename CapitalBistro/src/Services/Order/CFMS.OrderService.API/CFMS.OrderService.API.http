@@ -1,0 +1,62 @@
+@OrderAPI = https://localhost:7289
+@AuthAPI = https://localhost:7245
+@Token = 
+
+# 1. TẠO ĐƠN TẠI QUẦY (Staff/Manager Token)
+# Status tự động là Completed
+POST {{OrderAPI}}/api/orders/pos
+Authorization: Bearer {{Token}}
+Content-Type: application/json
+
+{
+  "items": [
+    {
+      "productId": "00000000-0000-0000-0000-000000000001",
+      "quantity": 2,
+      "unitPrice": 5.50
+    },
+    {
+      "productId": "00000000-0000-0000-0000-000000000002",
+      "quantity": 1,
+      "unitPrice": 12.00
+    }
+  ]
+}
+
+###
+
+# 2. TẠO ĐƠN ONLINE (Customer Token)
+# Status tự động là Pending, cần truyền FranchiseId muốn mua
+POST {{OrderAPI}}/api/orders/online
+Authorization: Bearer {{Token}}
+Content-Type: application/json
+
+{
+  "franchiseId": "00000000-0000-0000-0000-000000000009",
+  "items": [
+    {
+      "productId": "00000000-0000-0000-0000-000000000005",
+      "quantity": 3,
+      "unitPrice": 3.00
+    }
+  ]
+}
+
+###
+
+# 3. LẤY DANH SÁCH ĐƠN HÀNG (Staff Token thì ra đơn chi nhánh, Admin thì ra toàn bộ)
+GET {{OrderAPI}}/api/orders
+Authorization: Bearer {{Token}}
+
+###
+
+# 4. CẬP NHẬT TRẠNG THÁI ĐƠN HÀNG (Staff chuyển từ Pending sang Processing -> Ready)
+@OrderId = paste_order_id_here
+
+PATCH {{OrderAPI}}/api/orders/{{OrderId}}/status
+Authorization: Bearer {{Token}}
+Content-Type: application/json
+
+{
+  "status": "Ready"
+}

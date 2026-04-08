@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "CFMS.InventoryService.API.Controllers.InventoryController",
+    "Method": "GetInventory",
+    "RelativePath": "api/Inventory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CFMS.InventoryService.API.Controllers.InventoryController",
+    "Method": "GetLowStock",
+    "RelativePath": "api/Inventory/low-stock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CFMS.InventoryService.API.Controllers.InventoryController",
+    "Method": "CreateTransaction",
+    "RelativePath": "api/Inventory/transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CFMS.InventoryService.API.DTOs.StockTransactionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

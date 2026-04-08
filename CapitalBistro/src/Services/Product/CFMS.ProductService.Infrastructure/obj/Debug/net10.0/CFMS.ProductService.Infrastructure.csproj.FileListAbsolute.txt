@@ -1,0 +1,17 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\bin\Debug\net10.0\CFMS.ProductService.Infrastructure.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\bin\Debug\net10.0\CFMS.ProductService.Infrastructure.runtimeconfig.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\bin\Debug\net10.0\CFMS.ProductService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\bin\Debug\net10.0\CFMS.ProductService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\bin\Debug\net10.0\CFMS.ProductService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\bin\Debug\net10.0\CFMS.ProductService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\obj\Debug\net10.0\CFMS.ProductService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\obj\Debug\net10.0\CFMS.ProductService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\obj\Debug\net10.0\CFMS.ProductService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\obj\Debug\net10.0\CFMS.ProductService.Infrastructure.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\obj\Debug\net10.0\CFMS.ProductService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\obj\Debug\net10.0\CFMS.Pro.9E0C7489.Up2Date
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\obj\Debug\net10.0\CFMS.ProductService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\obj\Debug\net10.0\refint\CFMS.ProductService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\obj\Debug\net10.0\CFMS.ProductService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\obj\Debug\net10.0\CFMS.ProductService.Infrastructure.genruntimeconfig.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Infrastructure\obj\Debug\net10.0\ref\CFMS.ProductService.Infrastructure.dll

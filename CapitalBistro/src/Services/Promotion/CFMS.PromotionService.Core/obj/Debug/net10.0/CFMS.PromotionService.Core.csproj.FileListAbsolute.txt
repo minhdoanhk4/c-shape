@@ -1,0 +1,11 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Core\bin\Debug\net10.0\CFMS.PromotionService.Core.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Core\bin\Debug\net10.0\CFMS.PromotionService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Core\bin\Debug\net10.0\CFMS.PromotionService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Core\obj\Debug\net10.0\CFMS.PromotionService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Core\obj\Debug\net10.0\CFMS.PromotionService.Core.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Core\obj\Debug\net10.0\CFMS.PromotionService.Core.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Core\obj\Debug\net10.0\CFMS.PromotionService.Core.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Core\obj\Debug\net10.0\CFMS.PromotionService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Core\obj\Debug\net10.0\refint\CFMS.PromotionService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Core\obj\Debug\net10.0\CFMS.PromotionService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Promotion\CFMS.PromotionService.Core\obj\Debug\net10.0\ref\CFMS.PromotionService.Core.dll

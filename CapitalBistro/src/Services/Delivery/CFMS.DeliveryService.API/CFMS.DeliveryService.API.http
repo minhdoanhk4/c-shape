@@ -1,0 +1,46 @@
+@DeliveryAPI = https://localhost:7291
+@TokenAdmin = paste_your_admin_jwt
+@TokenManager = paste_your_manager_jwt
+@TokenShipper = paste_your_shipper_jwt
+
+# 1. TẠO YÊU CẦU GIAO HÀNG (ROLE: MANAGER / ADMIN)
+POST {{DeliveryAPI}}/api/deliveries
+Authorization: Bearer {{TokenManager}}
+Content-Type: application/json
+
+{
+  "referenceId": "11111111-1111-1111-1111-111111111111",
+  "deliveryType": "OnlineOrder",
+  "pickupAddress": "123 Franchise Store Ave",
+  "deliveryAddress": "456 Customer Home Blvd",
+  "estimatedDeliveryTime": "2026-05-15T15:00:00Z"
+}
+
+###
+
+# 2. XEM DANH SÁCH ĐƠN HÀNG (Tự động lọc theo Role Token)
+GET {{DeliveryAPI}}/api/deliveries
+Authorization: Bearer {{TokenManager}}
+
+###
+
+# 3. PHÂN CÔNG SHIPPER (ROLE: ADMIN/MANAGER)
+@DeliveryId = paste_delivery_id_here
+POST {{DeliveryAPI}}/api/deliveries/{{DeliveryId}}/assign
+Authorization: Bearer {{TokenManager}}
+Content-Type: application/json
+
+{
+  "shipperId": "88888888-8888-8888-8888-888888888888"
+}
+
+###
+
+# 4. SHIPPER CẬP NHẬT TRẠNG THÁI GIAO (ROLE: SHIPPER)
+PATCH {{DeliveryAPI}}/api/deliveries/{{DeliveryId}}/status
+Authorization: Bearer {{TokenShipper}}
+Content-Type: application/json
+
+{
+  "status": "Delivered"
+}

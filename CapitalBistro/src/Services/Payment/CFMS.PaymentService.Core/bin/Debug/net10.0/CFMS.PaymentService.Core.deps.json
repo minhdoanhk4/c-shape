@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CFMS.PaymentService.Core/1.0.0": {
+        "runtime": {
+          "CFMS.PaymentService.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CFMS.PaymentService.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

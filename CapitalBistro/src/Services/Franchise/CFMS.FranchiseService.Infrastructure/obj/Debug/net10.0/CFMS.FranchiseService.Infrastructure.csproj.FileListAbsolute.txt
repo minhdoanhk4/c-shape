@@ -1,0 +1,17 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\bin\Debug\net10.0\CFMS.FranchiseService.Infrastructure.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\bin\Debug\net10.0\CFMS.FranchiseService.Infrastructure.runtimeconfig.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\bin\Debug\net10.0\CFMS.FranchiseService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\bin\Debug\net10.0\CFMS.FranchiseService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\bin\Debug\net10.0\CFMS.FranchiseService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\bin\Debug\net10.0\CFMS.FranchiseService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\obj\Debug\net10.0\CFMS.FranchiseService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\obj\Debug\net10.0\CFMS.FranchiseService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\obj\Debug\net10.0\CFMS.FranchiseService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\obj\Debug\net10.0\CFMS.FranchiseService.Infrastructure.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\obj\Debug\net10.0\CFMS.FranchiseService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\obj\Debug\net10.0\CFMS.Fra.F91BBDA0.Up2Date
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\obj\Debug\net10.0\CFMS.FranchiseService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\obj\Debug\net10.0\refint\CFMS.FranchiseService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\obj\Debug\net10.0\CFMS.FranchiseService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\obj\Debug\net10.0\CFMS.FranchiseService.Infrastructure.genruntimeconfig.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Franchise\CFMS.FranchiseService.Infrastructure\obj\Debug\net10.0\ref\CFMS.FranchiseService.Infrastructure.dll

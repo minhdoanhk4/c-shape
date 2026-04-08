@@ -1,0 +1,62 @@
+@PromotionAPI = https://localhost:7293
+@TokenAdmin = paste_admin_jwt_here
+@TokenManager = paste_manager_jwt_here
+
+# 1. ADMIN TẠO CHIẾN DỊCH TOÀN CHUỖI (FranchiseId = null)
+POST {{PromotionAPI}}/api/promotions
+Authorization: Bearer {{TokenAdmin}}
+Content-Type: application/json
+
+{
+  "name": "Tet Holiday Mega Sale",
+  "description": "Giảm giá 20k cho toàn bộ đơn hàng dịp Tết",
+  "startDate": "2026-01-01T00:00:00Z",
+  "endDate": "2026-02-28T23:59:59Z",
+  "discountType": "FixedAmount",
+  "discountValue": 20000,
+  "coupons": [
+    {
+      "code": "TET2026",
+      "maxUsage": 1000
+    }
+  ]
+}
+
+###
+
+# 2. MANAGER TẠO CHIẾN DỊCH RIÊNG CHO CHI NHÁNH
+POST {{PromotionAPI}}/api/promotions
+Authorization: Bearer {{TokenManager}}
+Content-Type: application/json
+
+{
+  "name": "Quận 1 Grand Opening",
+  "description": "Giảm 10% mừng khai trương chi nhánh Quận 1",
+  "startDate": "2026-04-01T00:00:00Z",
+  "endDate": "2026-04-30T23:59:59Z",
+  "discountType": "Percentage",
+  "discountValue": 10,
+  "coupons": [
+    {
+      "code": "OPENQ1",
+      "maxUsage": 500
+    }
+  ]
+}
+
+###
+
+# 3. LẤY DANH SÁCH CHIẾN DỊCH (Lọc theo Franchise Context)
+GET {{PromotionAPI}}/api/promotions
+Authorization: Bearer {{TokenManager}}
+
+###
+
+# 4. ÁP DỤNG MÃ GIẢM GIÁ (Check Validity & Usage)
+POST {{PromotionAPI}}/api/promotions/apply-coupon
+Authorization: Bearer {{TokenManager}}
+Content-Type: application/json
+
+{
+  "code": "TET2026"
+}

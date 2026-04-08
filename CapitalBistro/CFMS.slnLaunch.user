@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "src\\Services\\Auth\\CFMS.AuthService.API\\CFMS.AuthService.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Services\\Product\\CFMS.ProductService.API\\CFMS.ProductService.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\API_Gateway\\CFMS.Gateway.API\\CFMS.Gateway.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Services\\Inventory\\CFMS.InventoryService.API\\CFMS.InventoryService.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Services\\Order\\CFMS.OrderService.API\\CFMS.OrderService.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

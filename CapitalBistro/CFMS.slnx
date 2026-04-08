@@ -1,0 +1,65 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/CFMS.Shared.Events/CFMS.Shared.Events.csproj" />
+  </Folder>
+  <Folder Name="/src/API_Gateway/">
+    <Project Path="src/API_Gateway/CFMS.Gateway.API/CFMS.Gateway.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Auth/">
+    <Project Path="src/Services/Auth/CFMS.AuthService.API/CFMS.AuthService.API.csproj" />
+    <Project Path="src/Services/Auth/CFMS.AuthService.Core/CFMS.AuthService.Core.csproj" />
+    <Project Path="src/Services/Auth/CFMS.AuthService.Infrastructure/CFMS.AuthService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Product/">
+    <Project Path="src/Services/Product/CFMS.ProductService.API/CFMS.ProductService.API.csproj" />
+    <Project Path="src/Services/Product/CFMS.ProductService.Core/CFMS.ProductService.Core.csproj" />
+    <Project Path="src/Services/Product/CFMS.ProductService.Infrastructure/CFMS.ProductService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Inventory/">
+    <Project Path="src/Services/Inventory/CFMS.InventoryService.API/CFMS.InventoryService.API.csproj" />
+    <Project Path="src/Services/Inventory/CFMS.InventoryService.Core/CFMS.InventoryService.Core.csproj" />
+    <Project Path="src/Services/Inventory/CFMS.InventoryService.Infrastructure/CFMS.InventoryService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Order/">
+    <Project Path="src/Services/Order/CFMS.OrderService.API/CFMS.OrderService.API.csproj" />
+    <Project Path="src/Services/Order/CFMS.OrderService.Core/CFMS.OrderService.Core.csproj" />
+    <Project Path="src/Services/Order/CFMS.OrderService.Infrastructure/CFMS.OrderService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Customer/">
+    <Project Path="src/Services/Customer/CFMS.CustomerService.API/CFMS.CustomerService.API.csproj" />
+    <Project Path="src/Services/Customer/CFMS.CustomerService.Core/CFMS.CustomerService.Core.csproj" />
+    <Project Path="src/Services/Customer/CFMS.CustomerService.Infrastructure/CFMS.CustomerService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Shift/">
+    <Project Path="src/Services/Shift/CFMS.ShiftService.API/CFMS.ShiftService.API.csproj" />
+    <Project Path="src/Services/Shift/CFMS.ShiftService.Core/CFMS.ShiftService.Core.csproj" />
+    <Project Path="src/Services/Shift/CFMS.ShiftService.Infrastructure/CFMS.ShiftService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Delivery/">
+    <Project Path="src/Services/Delivery/CFMS.DeliveryService.API/CFMS.DeliveryService.API.csproj" />
+    <Project Path="src/Services/Delivery/CFMS.DeliveryService.Core/CFMS.DeliveryService.Core.csproj" />
+    <Project Path="src/Services/Delivery/CFMS.DeliveryService.Infrastructure/CFMS.DeliveryService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Payment/">
+    <Project Path="src/Services/Payment/CFMS.PaymentService.API/CFMS.PaymentService.API.csproj" />
+    <Project Path="src/Services/Payment/CFMS.PaymentService.Core/CFMS.PaymentService.Core.csproj" />
+    <Project Path="src/Services/Payment/CFMS.PaymentService.Infrastructure/CFMS.PaymentService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Promotion/">
+    <Project Path="src/Services/Promotion/CFMS.PromotionService.API/CFMS.PromotionService.API.csproj" />
+    <Project Path="src/Services/Promotion/CFMS.PromotionService.Core/CFMS.PromotionService.Core.csproj" />
+    <Project Path="src/Services/Promotion/CFMS.PromotionService.Infrastructure/CFMS.PromotionService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Reporting/">
+    <Project Path="src/Services/Reporting/CFMS.ReportingService.API/CFMS.ReportingService.API.csproj" />
+    <Project Path="src/Services/Reporting/CFMS.ReportingService.Core/CFMS.ReportingService.Core.csproj" />
+    <Project Path="src/Services/Reporting/CFMS.ReportingService.Infrastructure/CFMS.ReportingService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Franchise/">
+    <Project Path="src/Services/Franchise/CFMS.FranchiseService.API/CFMS.FranchiseService.API.csproj" />
+    <Project Path="src/Services/Franchise/CFMS.FranchiseService.Core/CFMS.FranchiseService.Core.csproj" />
+    <Project Path="src/Services/Franchise/CFMS.FranchiseService.Infrastructure/CFMS.FranchiseService.Infrastructure.csproj" />
+  </Folder>
+</Solution>

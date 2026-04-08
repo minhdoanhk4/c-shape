@@ -1,0 +1,26 @@
+@ReportingAPI = https://localhost:7294
+@TokenAdmin = paste_admin_jwt_here
+@TokenManager = paste_manager_jwt_here
+@FranchiseA = 00000000-0000-0000-0000-000000000001
+
+# 1. ADMIN XEM DOANH THU TOÀN CHUỖI
+GET {{ReportingAPI}}/api/reports/daily-revenue?startDate=2026-03-25&endDate=2026-04-03
+Authorization: Bearer {{TokenAdmin}}
+
+###
+
+# 2. ADMIN XEM DOANH THU CHI NHÁNH A
+GET {{ReportingAPI}}/api/reports/daily-revenue?startDate=2026-03-25&endDate=2026-04-03&filterFranchiseId={{FranchiseA}}
+Authorization: Bearer {{TokenAdmin}}
+
+###
+
+# 3. MANAGER XEM DOANH THU QUÁN MÌNH (FranchiseId tự lấy từ Claim)
+GET {{ReportingAPI}}/api/reports/daily-revenue?startDate=2026-03-25&endDate=2026-04-03
+Authorization: Bearer {{TokenManager}}
+
+###
+
+# 4. XEM TOP SẢN PHẨM BÁN CHẠY
+GET {{ReportingAPI}}/api/reports/top-products?startDate=2026-03-25&endDate=2026-04-03
+Authorization: Bearer {{TokenManager}}

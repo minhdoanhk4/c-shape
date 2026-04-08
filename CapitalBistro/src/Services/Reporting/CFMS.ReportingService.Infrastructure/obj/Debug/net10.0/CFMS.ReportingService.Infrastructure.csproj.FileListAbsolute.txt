@@ -1,0 +1,17 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\bin\Debug\net10.0\CFMS.ReportingService.Infrastructure.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\bin\Debug\net10.0\CFMS.ReportingService.Infrastructure.runtimeconfig.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\bin\Debug\net10.0\CFMS.ReportingService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\bin\Debug\net10.0\CFMS.ReportingService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\bin\Debug\net10.0\CFMS.ReportingService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\bin\Debug\net10.0\CFMS.ReportingService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\obj\Debug\net10.0\CFMS.ReportingService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\obj\Debug\net10.0\CFMS.ReportingService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\obj\Debug\net10.0\CFMS.ReportingService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\obj\Debug\net10.0\CFMS.ReportingService.Infrastructure.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\obj\Debug\net10.0\CFMS.ReportingService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\obj\Debug\net10.0\CFMS.Rep.0A108BCF.Up2Date
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\obj\Debug\net10.0\CFMS.ReportingService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\obj\Debug\net10.0\refint\CFMS.ReportingService.Infrastructure.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\obj\Debug\net10.0\CFMS.ReportingService.Infrastructure.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\obj\Debug\net10.0\CFMS.ReportingService.Infrastructure.genruntimeconfig.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Reporting\CFMS.ReportingService.Infrastructure\obj\Debug\net10.0\ref\CFMS.ReportingService.Infrastructure.dll

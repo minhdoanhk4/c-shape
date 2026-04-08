@@ -1,0 +1,50 @@
+@PaymentAPI = https://localhost:7292
+@TokenManager = paste_your_manager_jwt
+@TokenCustomer = paste_your_customer_jwt
+
+# 1. POS CHECKOUT - THANH TOÁN TẠI QUẦY (Staff/Manager Token)
+# Mặc định thành công, lấy FranchiseId từ JWT
+POST {{PaymentAPI}}/api/payments/pos
+Authorization: Bearer {{TokenManager}}
+Content-Type: application/json
+
+{
+  "orderId": "11111111-1111-1111-1111-111111111111",
+  "amount": 55000,
+  "method": "Cash"
+}
+
+###
+
+# 2. ONLINE CHECKOUT - LẤY URL THANH TOÁN (Customer Token)
+# Mặc định là Pending, trả về URL của Sandbox VNPay
+POST {{PaymentAPI}}/api/payments/online
+Authorization: Bearer {{TokenCustomer}}
+Content-Type: application/json
+
+{
+  "orderId": "22222222-2222-2222-2222-222222222222",
+  "franchiseId": "00000000-0000-0000-0000-000000000009",
+  "amount": 105000,
+  "method": "VNPay"
+}
+
+###
+
+# 3. VNPAY SERVER GỌI WEBHOOK (Không cần Token)
+# (Copy TransactionId từ kết quả của API số 2 và dán vào đây)
+POST {{PaymentAPI}}/api/payments/webhook/vnpay
+Content-Type: application/json
+
+{
+  "transactionId": "paste_transaction_id_here",
+  "vnp_TransactionNo": "VNP123456789",
+  "vnp_ResponseCode": "00",
+  "signature": "123456789"
+}
+
+###
+
+# 4. GET REPORT DÒNG TIỀN (Manager)
+GET {{PaymentAPI}}/api/payments?page=1&pageSize=50
+Authorization: Bearer {{TokenManager}}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CFMS.DeliveryService.Core/1.0.0": {
+        "runtime": {
+          "CFMS.DeliveryService.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CFMS.DeliveryService.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

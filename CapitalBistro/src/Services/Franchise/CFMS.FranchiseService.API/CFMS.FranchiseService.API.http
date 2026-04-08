@@ -1,0 +1,49 @@
+@FranchiseAPI = https://localhost:7295
+@TokenAdmin = paste_admin_jwt_here
+@TokenManager = paste_manager_jwt_here
+
+# 1. ADMIN TẠO MỚI CHI NHÁNH (Status mặc định là Prep)
+POST {{FranchiseAPI}}/api/franchises
+Authorization: Bearer {{TokenAdmin}}
+Content-Type: application/json
+
+{
+  "name": "CFMS Quận 9",
+  "address": "123 Lê Văn Việt, Hiệp Phú, Quận 9, TP.HCM",
+  "contactPhone": "0901234567",
+  "openTime": "06:00",
+  "closeTime": "22:00",
+  "type": "Branch"
+}
+
+###
+
+# 2. ADMIN CẬP NHẬT THÔNG TIN CHI NHÁNH (Chuyển sang Active)
+# (Lấy ID từ kết quả của API 1)
+PUT {{FranchiseAPI}}/api/franchises/paste_franchise_id_here
+Authorization: Bearer {{TokenAdmin}}
+Content-Type: application/json
+
+{
+  "name": "CFMS Quận 9 - Flagship Store",
+  "address": "123 Lê Văn Việt, Hiệp Phú, Quận 9, TP.HCM",
+  "contactPhone": "0901234567",
+  "openTime": "06:30",
+  "closeTime": "23:00",
+  "type": "Branch",
+  "status": "Active"
+}
+
+###
+
+# 3. LẤY DANH SÁCH CHI NHÁNH
+# Manager chỉ thấy các chi nhánh đang Active
+GET {{FranchiseAPI}}/api/franchises
+Authorization: Bearer {{TokenManager}}
+
+###
+
+# 4. LẤY CHI TIẾT 1 CHI NHÁNH
+# Manager chỉ được xem chi tiết chi nhánh của mình
+GET {{FranchiseAPI}}/api/franchises/paste_franchise_id_here
+Authorization: Bearer {{TokenManager}}

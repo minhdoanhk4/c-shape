@@ -1,0 +1,11 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Shared\CFMS.Shared.Events\bin\Debug\net10.0\CFMS.Shared.Events.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Shared\CFMS.Shared.Events\bin\Debug\net10.0\CFMS.Shared.Events.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Shared\CFMS.Shared.Events\bin\Debug\net10.0\CFMS.Shared.Events.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Shared\CFMS.Shared.Events\obj\Debug\net10.0\CFMS.Shared.Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Shared\CFMS.Shared.Events\obj\Debug\net10.0\CFMS.Shared.Events.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Shared\CFMS.Shared.Events\obj\Debug\net10.0\CFMS.Shared.Events.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Shared\CFMS.Shared.Events\obj\Debug\net10.0\CFMS.Shared.Events.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Shared\CFMS.Shared.Events\obj\Debug\net10.0\CFMS.Shared.Events.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Shared\CFMS.Shared.Events\obj\Debug\net10.0\refint\CFMS.Shared.Events.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Shared\CFMS.Shared.Events\obj\Debug\net10.0\CFMS.Shared.Events.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Shared\CFMS.Shared.Events\obj\Debug\net10.0\ref\CFMS.Shared.Events.dll

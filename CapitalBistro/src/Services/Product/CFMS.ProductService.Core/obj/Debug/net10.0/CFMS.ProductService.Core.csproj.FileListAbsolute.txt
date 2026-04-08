@@ -1,0 +1,11 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Core\bin\Debug\net10.0\CFMS.ProductService.Core.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Core\bin\Debug\net10.0\CFMS.ProductService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Core\bin\Debug\net10.0\CFMS.ProductService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Core\obj\Debug\net10.0\CFMS.ProductService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Core\obj\Debug\net10.0\CFMS.ProductService.Core.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Core\obj\Debug\net10.0\CFMS.ProductService.Core.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Core\obj\Debug\net10.0\CFMS.ProductService.Core.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Core\obj\Debug\net10.0\CFMS.ProductService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Core\obj\Debug\net10.0\refint\CFMS.ProductService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Core\obj\Debug\net10.0\CFMS.ProductService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Product\CFMS.ProductService.Core\obj\Debug\net10.0\ref\CFMS.ProductService.Core.dll

@@ -1,0 +1,11 @@
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Core\bin\Debug\net10.0\CFMS.AuthService.Core.deps.json
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Core\bin\Debug\net10.0\CFMS.AuthService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Core\bin\Debug\net10.0\CFMS.AuthService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Core\obj\Debug\net10.0\CFMS.AuthService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Core\obj\Debug\net10.0\CFMS.AuthService.Core.AssemblyInfoInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Core\obj\Debug\net10.0\CFMS.AuthService.Core.AssemblyInfo.cs
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Core\obj\Debug\net10.0\CFMS.AuthService.Core.csproj.CoreCompileInputs.cache
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Core\obj\Debug\net10.0\CFMS.AuthService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Core\obj\Debug\net10.0\refint\CFMS.AuthService.Core.dll
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Core\obj\Debug\net10.0\CFMS.AuthService.Core.pdb
+C:\Users\msi2k\Documents\01.FPT_MATERIALs\CapitalBistro\src\Services\Auth\CFMS.AuthService.Core\obj\Debug\net10.0\ref\CFMS.AuthService.Core.dll
